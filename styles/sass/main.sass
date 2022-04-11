@@ -1,0 +1,77 @@
+@import config
+@import 'blocks/**/*'
+
+ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+.clear
+    clear: both
+
+body
+    font-family: 'Roboto', sans-serif
+    background-color: #e9e9e9
+
+h2
+    font-size: 32px
+
+h3
+    font-weight: 800
+    margin-bottom: 20px
+
+main
+    #weather
+        background-color: #fff
+        padding-top: 20px
+        padding-left: 100px
+        padding-right: 100px
+        padding-bottom: 10px
+        border-radius: 10px
+        border: 1px solid #cacaca
+    .image
+        margin-left: -30px
+        margin-top: 7px
+        width: 130px
+        text-align: center
+        .image-img
+            display: block
+            margin: auto
+            width: 50px
+            margin-bottom: 0
+            margin-top: -5px
+        .image-span
+            font-size: 15px
+            margin-top: -5px
+    .temperature
+        margin-left: 30px
+        span
+            font-size: 52px
+    .date
+        span
+            margin-top: 7px
+            font-size: 18px
+            &:first-child
+                margin-right: 20px
+    .stats
+        margin-right: 54px
+        ul
+            li
+                font-size: 16px
+    #forecast
+        text-align: center
+        .image
+            width: 100%
+            height: 75px
+            margin: 0
+            .image-img
+                width: 75px
+        .temperature
+            margin: 0
+            span
+                font-size: 34px
+        .date-time
+            font-size: 18px
+
+
+@import media
